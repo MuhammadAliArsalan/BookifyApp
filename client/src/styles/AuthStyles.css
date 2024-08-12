@@ -1,0 +1,69 @@
+/* ===================================
+========= register page  */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75vh;
+    flex-direction: column;
+    background-color: #519e6f;
+    background-image: linear-gradient(0deg, #4c9271 0%, #f4f4f4 100%);
+}
+.form-container h1 {
+    color: #0a0a0a; /* Vibrant pink color */
+    text-decoration: underline wavy #2ecc71; /* Making the wavy underline less distracting */
+    font-family: "Roboto"; /* Use a monospaced font */
+    letter-spacing: 2px; /* Add letter spacing for a unique look */
+    transform: rotate(-3deg); /* Rotate the text slightly */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background */
+    display: inline-block; /* Necessary for background and padding */
+    padding: 5px 10px; /* Add some padding around the text */
+    border-radius: 5px; /* Optional: adds rounded corners to the background */
+}
+
+.form-container form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.form-container form .title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}
+
+.form-container form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+}
+
+.form-container form button {
+    border: 1px solid black;
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    width: 250px;
+}
+
+.form-container form button:hover {
+    border: 1px solid black;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #434343,
+        #000000
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.forgot-btn {
+    background-color: #434343a4 !important;
+    border: 0 !important;
+}
+
+.forgot-btn:hover {
+    color: white !important;
+}
